@@ -14,5 +14,10 @@ public class Main {
             e.fillInStackTrace();
         }
 
+        if(servidorThread.isAlive()){
+            ClienteSocketBiblioteca cliente = new ClienteSocketBiblioteca();
+            cliente.executarCliente();
+        }
     }
 }
+
