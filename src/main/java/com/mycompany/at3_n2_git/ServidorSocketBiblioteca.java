@@ -1,13 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.at3_n2_git;
 
-/**
- *
- * @author caiov
- */
+import com.google.gson.Gson;
+
+import java.io.*;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.List;
+
 public class ServidorSocketBiblioteca {
-    
+    private static final int PORT = 12345;
+
+
+
+    public void start() {
+        try (ServerSocket serverSocket = new ServerSocket(PORT)) {
+            System.out.println("Servidor iniciado na porta " + PORT);
+
+            while (true) {
+                Socket clientSocket = serverSocket.accept();
+
+            }
+        } catch (IOException e) {
+            e.fillInStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        new ServidorSocketBiblioteca().start();
+    }
+
+    private static class ClientHandler extends Thread {
+        
+    }
 }
