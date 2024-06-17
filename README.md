@@ -40,7 +40,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## 🖇️ Colaborando
 
-Thales
+Thales Sousa Lima
 
 ## 📌 Versão
 
@@ -50,6 +50,6 @@ v1
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
 * **Desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/caiosantosbsb)
-* **Documentador Thales
+* **Documentador Thales Sousa Lima
 
 
