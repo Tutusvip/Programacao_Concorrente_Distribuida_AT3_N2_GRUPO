@@ -1,25 +1,55 @@
+# Título do projeto
+
 Trabalho em grupo atividade AT3_N2, Progrmacacao_Concorrente_Distribuida_Noturno
 
-Caio Vinicius de Oliveira Santos
-Tales
+## 🚀 Começando
 
-Crie um projeto (em Java 17) para representar um servidor utilizando sockets. O servidor terá a função de
-controlar um registro/cadastro de livros de uma biblioteca, sendo capaz de executar as seguintes
-funcionalidades:
-● Listagem dos livros;
-● Aluguel e devolução de livros;
-● Cadastro de livros.
-Os livros devem ser representados por uma classe, que deve conter no mínimo os seguintes atributos:
-● Autor;
-● Nome;
-● Gênero;
-● Número de exemplares.
-Os livros deverão ficar armazenados em um arquivo JSON (divulgado previamente pelo professor), que terá
-10 livros inicialmente. As alterações aplicadas pelo usuário (cadastro e aluguel) devem refletir no
-arquivo, pois o mesmo representará uma “base de dados” da biblioteca.
-As operações devem ser realizadas por um cliente socket, que também deve ser implementado pelo
-grupo. Ou seja, deve haver o envio e recebimento de dados entre o cliente e o servidor.
-Observações:
-● O arquivo JSON deverá manter sua estrutura correta (conforme explicado aqui) após a aplicação das
-operações;
-● A comunicação entre cliente e servidor deve ser feita obrigatoriamente por meio de sockets.
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+
+
+### 📋 Pré-requisitos
+
+Utilizar Apache Netbeans.
+Iniciar um projeto Maven.
+Importar a dependencia GSON (gson.-2.8.9.jar)
+
+### 🔧 Instalação
+
+Extraia os arquivos e copie para a pasta do projeto criado.
+
+## ⚙️ Executando os testes
+
+Clique em RUN diretamenet na classe Main.
+
+### 🔩 Analise os testes de ponta a ponta
+
+Cadastrar novo livro.
+Listar livros.
+Aludar livro.
+Devolver livro
+
+### ⌨️ E testes de estilo de codificação
+
+Olhar comments do código.
+
+## 🛠️ Construído com
+
+Mencione as ferramentas que você usou para criar seu projeto
+* [Maven](https://maven.apache.org/) - Gerente de Dependência
+* GSON
+
+## 🖇️ Colaborando
+
+Thales
+
+## 📌 Versão
+
+v1
+## ✒️ Autores
+
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+
+* **Desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/caiosantosbsb)
+* **Documentador Thales
+
+
